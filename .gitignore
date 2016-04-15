@@ -47,3 +47,9 @@ public/css/main.css
 README.html
 po/*
 !po/*.po
+
+css/main.min.css
+js/angularjs-all.min.js
+js/main.min.js
+js/vendors.min.js
+

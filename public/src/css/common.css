@@ -613,23 +613,23 @@ margin-left: 0;
   float: left;
   height: 45px;
 }
-#powered a.bitcore {
-  background-image: url('../img/logo.svg');
+#powered a.prasos {
+  background-image: url('../img/prasos.png');
   background-size: 80px;
   width: 30%;
 }
-#powered a.nodejs {
-  background-image: url('../img/nodejs.png');
+#powered a.coinmotion {
+  background-image: url('../img/cm_dark.svg');
   background-size: 80px;
   width: 30%;
 }
-#powered a.angularjs {
-  background-image: url('../img/angularjs.png');
+#powered a.bittiraha {
+  background-image: url('../img/bittiraha_logo.png');
   background-size: 50px;
   width: 20%;
 }
-#powered a.leveldb {
-  background-image: url('../img/leveldb.png');
+#powered a.denarium {
+  background-image: url('../img/db_logo_small.png');
   background-size: 50px;
   width: 20%;
 }

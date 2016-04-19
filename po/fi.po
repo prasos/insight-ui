@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Insight\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Roni Blomberg <rblomberg@prasos.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fi\n"
+
+#: public/views/transaction/tx.html
+msgid "(Input unconfirmed)"
+msgstr "(Sisääntulo vahvistamaton)"
+
+#: public/views/404.html
+msgid "404 Page not found :("
+msgstr "404 Sivua ei löytynyt :("
+
+#: public/views/index.html
+msgid "<strong>insight</strong>  is an <a href=\"https://insight.is/\" target=\"_blank\">open-source Bitcoin blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by bitcoind RPC.  Check out the <a href=\"http://github.com/bitpay/insight\" target=\"_blank\">source code</a>."
+msgstr "<strong>Lohkoketju.fi</strong> on ilmainen ja helppokäyttöinen lohkoketjuselain Bitcoinille. Palvelu tarjoaa ajantasaisen Bitcoinin lohkoketjun selaamisen suomen kielellä."
+
+#: public/views/index.html
+msgid "<strong>insight</strong> is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href=\"https://github.com/bitpay/insight/issues\" target=\"_blank\">github issue tracker</a>."
+msgstr "Tämän palvelun tarjoaa <strong><a href="https://bittiraha.fi/" target="_blank">Bittiraha.fi</a> / <a href="https://prasos.fi" target="_blank">Prasos Oy</a></strong> ja palvelu on vielä kehitysvaiheessa."
+
+#: public/views/index.html
+msgid "About"
+msgstr "Lisätietoja"
+
+#: public/views/address.html
+#: public/views/messages_verify.html
+msgid "Address"
+msgstr "Osoite"
+
+#: public/views/index.html
+msgid "Age"
+msgstr "Ikä"
+
+#: public/views/messages_verify.html
+msgid "An error occured in the verification process."
+msgstr "Tarkastusprosessissa tapahtui virhe."
+
+#: public/views/transaction_sendraw.html
+msgid "An error occured:<br>{{error}}"
+msgstr "Tapahtui virhe:<br>{{error}}"
+
+#: public/views/status.html
+msgid "Application Status"
+msgstr "Sovelluksen tila"
+
+#: public/views/status.html
+msgid "Best Block"
+msgstr "Paras lohko"
+
+#: public/views/messages_verify.html
+msgid "Bitcoin comes with a way of signing arbitrary messages."
+msgstr "Bitcoinilla voit allekirjoittaa viestejä."
+
+#: public/views/status.html
+msgid "Bitcoin node information"
+msgstr "Bitcoin-noodin tiedot"
+
+#: public/views/block.html
+msgid "Block"
+msgstr "Lohko"
+
+#: public/views/block.html
+msgid "Block Reward"
+msgstr "Lohkopalkkio"
+
+#: public/views/block_list.html
+#: public/views/dummy-translations.html
+#: public/views/status.html
+msgid "Blocks"
+msgstr "Lohkot"
+
+#: public/views/transaction_sendraw.html
+msgid "Broadcast Raw Transaction"
+msgstr "Kuuluta raaka siirto"
+
+#: public/views/status.html
+msgid "Bytes Serialized"
+msgstr "Sarjallisetut tavut"
+
+#: public/views/includes/connection.html
+msgid "Can't connect to bitcoind to get live updates from the p2p network. (Tried connecting to bitcoind at {{host}}:{{port}} and failed.)"
+msgstr "Yhteyttä bitcoind:hen ei voitu muodostaa. (Yhteys kohteeseen {{host}}:{{port}} epäonnistui.)"
+
+#: public/views/includes/connection.html
+msgid "Can't connect to insight server. Attempting to reconnect..."
+msgstr "Yhteyttä insight-palvelimeen ei saatu. Yritetään uudelleen..."
+
+#: public/views/includes/connection.html
+msgid "Can't connect to internet. Please, check your connection."
+msgstr "Ei internetyhteyttä."
+
+#: public/views/status.html
+msgid "Complete"
+msgstr "Valmiina"
+
+#: public/views/transaction.html
+#: public/views/transaction/tx.html
+msgid "Confirmations"
+msgstr "Vahvistusten lukumäärä"
+
+#: public/views/includes/header.html
+msgid "Conn"
+msgstr "Yhteyksiä"
+
+#: public/views/status.html
+msgid "Connections to other nodes"
+msgstr "Yhteyksien määrä muihin noodeihin"
+
+#: public/views/status.html
+msgid "Current Blockchain Tip (insight)"
+msgstr ""
+
+#: public/views/status.html
+msgid "Current Sync Status"
+msgstr "Synkronoinnin tila"
+
+#: public/views/transaction.html
+msgid "Details"
+msgstr "Yksityiskohdat"
+
+#: public/views/block.html
+msgid "Difficulty"
+msgstr "Vaikeustaso"
+
+#: public/views/transaction/tx.html
+msgid "Double spent attempt detected. From tx:"
+msgstr "Kaksoiskulutusyritys havaittu. tx:"
+
+#: public/views/messages_verify.html
+msgid "Error message:"
+msgstr "Virhe:"
+
+#: public/views/includes/connection.html
+msgid "Error!"
+msgstr "Virhe!"
+
+#: public/views/transaction/tx.html
+msgid "Fee"
+msgstr "Palkkio"
+
+#: public/views/transaction.html
+msgid "Fee Rate"
+msgstr "Palkkio"
+
+#: public/views/address.html
+msgid "Final Balance"
+msgstr "Lopullinen kate"
+
+#: public/views/status.html
+msgid "Finish Date"
+msgstr "Valmistumisaika"
+
+#: public/views/404.html
+msgid "Go to home"
+msgstr "Palaa alkuun"
+
+#: public/views/status.html
+msgid "Hash Serialized"
+msgstr "Sarjallistettu tiiviste"
+
+#: public/views/block.html
+#: public/views/block_list.html
+#: public/views/index.html
+#: public/views/status.html
+#: public/views/includes/header.html
+msgid "Height"
+msgstr "Lohko"
+
+#: public/views/transaction.html
+#: public/views/transaction/tx.html
+msgid "Included in Block"
+msgstr "Sisältyy lohkoon"
+
+#: public/views/transaction/tx.html
+msgid "Incoherence in levelDB detected:"
+msgstr "Ristiriitaisuus levelDB:ssä havaittu"
+
+#: public/views/status.html
+msgid "Info Errors"
+msgstr "Info-virheitä"
+
+#: public/views/status.html
+msgid "Initial Block Chain Height"
+msgstr "Alkuperäisen lohkoketjun korkeus"
+
+#: public/views/transaction.html
+msgid "Input"
+msgstr "Sisääntulo"
+
+#: public/views/status.html
+msgid "Last Block"
+msgstr "Viimeisin lohko"
+
+#: public/views/status.html
+msgid "Last Block Hash (Bitcoind)"
+msgstr "Viimeisimmän lohkon tiiviste (Bitcoind)"
+
+#: public/views/index.html
+msgid "Latest Blocks"
+msgstr "Viimeisimmät lohkot"
+
+#: public/views/index.html
+msgid "Latest Transactions"
+msgstr "Viimeisimmät siirrot"
+
+#: public/views/address.html
+msgid "Loading Address Information"
+msgstr "Ladataan Osoitetietoja"
+
+#: public/views/block.html
+msgid "Loading Block Information"
+msgstr "Ladataan lohkotietoja"
+
+#: public/views/block_list.html
+msgid "Loading Selected Date..."
+msgstr "Ladataan valittua päivämäärää..."
+
+#: public/views/transaction.html
+msgid "Loading Transaction Details"
+msgstr "Ladataan siirron yksityiskohtia"
+
+#: public/views/transaction/list.html
+msgid "Loading Transactions..."
+msgstr "Ladataan siirtoja..."
+
+#: public/views/messages_verify.html
+#: public/views/transaction_sendraw.html
+#: public/views/includes/infoStatus.html
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: public/views/messages_verify.html
+msgid "Message"
+msgstr "Viesti"
+
+#: public/views/transaction.html
+msgid "Mined Time"
+msgstr "Louhinta-aika"
+
+#: public/views/block.html
+#: public/views/block_list.html
+#: public/views/index.html
+msgid "Mined by"
+msgstr "Louhija"
+
+#: public/views/status.html
+msgid "Mining Difficulty"
+msgstr "Louhinnan vaikeusaste"
+
+#: public/views/block.html
+msgid "Next Block"
+msgstr "Seuraava lohko"
+
+#: public/views/transaction/tx.html
+msgid "No Inputs (Newly Generated Coins)"
+msgstr "Ei sisääntuloja (juuri luotuja kolikoita)"
+
+#: public/views/block_list.html
+msgid "No blocks yet."
+msgstr "Ei lohkoja vielä."
+
+#: public/views/includes/search.html
+msgid "No matching records found!"
+msgstr "Vastaavaa tallennetta ei löytynyt!"
+
+#: public/views/address.html
+msgid "No. Transactions"
+msgstr "Siirtojen lukumäärä"
+
+#: public/views/block.html
+msgid "Number Of Transactions"
+msgstr "Siirtojen lukumäärä"
+
+#: public/views/transaction.html
+msgid "Output"
+msgstr "Lähtö"
+
+#: public/views/index.html
+msgid "Powered by"
+msgstr "Palvelun tarjoaa"
+
+#: public/views/block.html
+msgid "Previous Block"
+msgstr "Edellinen lohko"
+
+#: public/views/status.html
+msgid "Protocol version"
+msgstr "Protokollan versio"
+
+#: public/views/status.html
+msgid "Proxy setting"
+msgstr "Välityspalvelinasetus"
+
+#: public/views/transaction_sendraw.html
+msgid "Raw transaction data"
+msgstr "Raaka siirtodata"
+
+#: public/views/transaction_sendraw.html
+msgid "Raw transaction data must be a valid hexadecimal string."
+msgstr "Raa'an siirtodatan täytyy olla käypää heksadesimaalimuotoa."
+
+#: public/views/transaction.html
+msgid "Received Time"
+msgstr "Saapumisaika"
+
+#: public/views/redirect.html
+msgid "Redirecting..."
+msgstr "Uudelleenohjataan..."
+
+#: public/views/includes/search.html
+msgid "Search for block, transaction or address"
+msgstr "Etsi lohkoa, siirtoa tai osoitetta"
+
+#: public/views/index.html
+msgid "See all blocks"
+msgstr "Näytä kaikki lohkot"
+
+#: public/views/transaction_sendraw.html
+msgid "Send transaction"
+msgstr "Lähetä"
+
+#: public/views/status.html
+msgid "Show Transaction Output data"
+msgstr "Näytä siirron ulostulo"
+
+#: public/views/transaction/tx.html
+msgid "Show all"
+msgstr "Näytä kaikki"
+
+#: public/views/transaction/tx.html
+msgid "Show input"
+msgstr "Näytä sisääntulo"
+
+#: public/views/transaction/tx.html
+msgid "Show less"
+msgstr "Näytä vähemmän"
+
+#: public/views/transaction/tx.html
+msgid "Show more"
+msgstr "Näytä enemmän"
+
+#: public/views/messages_verify.html
+msgid "Signature"
+msgstr "Allekirjoitus"
+
+#: public/views/block_list.html
+#: public/views/index.html
+#: public/views/transaction.html
+msgid "Size"
+msgstr "Koko"
+
+#: public/views/block.html
+msgid "Size (bytes)"
+msgstr "Koko (tavua)"
+
+#: public/views/status.html
+msgid "Skipped Blocks (previously synced)"
+msgstr "Ohitetut lohkot (aikaisemmin synkronoitu)"
+
+#: public/views/status.html
+msgid "Start Date"
+msgstr "Aloituspäivämäärä"
+
+#: public/views/dummy-translations.html
+msgid "Status"
+msgstr "Tila"
+
+#: public/views/block.html
+#: public/views/transaction.html
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: public/views/address.html
+msgid "Summary <small>confirmed</small>"
+msgstr "Yhteenveto <small>vahvistettu</small>"
+
+#: public/views/status.html
+msgid "Sync Progress"
+msgstr "Synkronoinnin eteneminen"
+
+#: public/views/status.html
+msgid "Sync Status"
+msgstr "Synkronoinnin tila"
+
+#: public/views/status.html
+msgid "Sync Type"
+msgstr "Synkronoinnin tyyppi"
+
+#: public/views/status.html
+msgid "Synced Blocks"
+msgstr "Synkronoituja lohkoja"
+
+#: public/views/status.html
+msgid "Testnet"
+msgstr "Testiverkko"
+
+#: public/views/messages_verify.html
+msgid "The message failed to verify."
+msgstr "Viestin varmistus epäonnistui."
+
+#: public/views/messages_verify.html
+msgid "The message is verifiably from {{verification.address}}."
+msgstr "Viesti saapui varmennettavasti osoitteesta {{verification.address}}."
+
+#: public/views/transaction/list.html
+msgid "There are no transactions involving this address."
+msgstr "Kyseistä osoitetta koskevia siirtoja ei löytynyt."
+
+#: public/views/transaction_sendraw.html
+msgid "This form can be used to broadcast a raw transaction in hex format over the Bitcoin network."
+msgstr "Tätä lomaketta voi käyttää raa'an transaktion kuuluttamiseen Bitcoin-verkkoon. "
+
+#: public/views/messages_verify.html
+msgid "This form can be used to verify that a message comes from a specific Bitcoin address."
+msgstr "Tätä lomaketta voi käyttää vahvistaakseen viestin tulevan tietystä Bitcoin-osoitteesta."
+
+#: public/views/status.html
+msgid "Time Offset"
+msgstr "Aikaero"
+
+#: public/views/block.html
+#: public/views/block_list.html
+msgid "Timestamp"
+msgstr "Aikaleima"
+
+#: public/views/block_list.html
+msgid "Today"
+msgstr "Tänään"
+
+#: public/views/status.html
+msgid "Total Amount"
+msgstr "Kokonaismäärä"
+
+#: public/views/address.html
+msgid "Total Received"
+msgstr "Saapuneet yhteensä"
+
+#: public/views/address.html
+msgid "Total Sent"
+msgstr "Lähetetyt yhteensä"
+
+#: public/views/transaction.html
+msgid "Transaction"
+msgstr "Siirto"
+
+#: public/views/status.html
+msgid "Transaction Output Set Information"
+msgstr "Siirron ulostulon tiedot"
+
+#: public/views/status.html
+msgid "Transaction Outputs"
+msgstr "Siirron ulostuloja"
+
+#: public/views/transaction_sendraw.html
+msgid "Transaction succesfully broadcast.<br>Transaction id: {{txid}}"
+msgstr "Siirto kuulutettu onnistuneesti.<br>Siirron tunniste: {{txid}}"
+
+#: public/views/address.html
+#: public/views/block.html
+#: public/views/block_list.html
+#: public/views/index.html
+#: public/views/status.html
+msgid "Transactions"
+msgstr "Siirtoja"
+
+#: public/views/transaction/tx.html
+msgid "Type"
+msgstr "Tyyppi"
+
+#: public/views/address.html
+msgid "Unconfirmed"
+msgstr "Vahvistamatta"
+
+#: public/views/transaction.html
+#: public/views/transaction/tx.html
+msgid "Unconfirmed Transaction!"
+msgstr "Vahvistamaton siirto!"
+
+#: public/views/address.html
+msgid "Unconfirmed Txs Balance"
+msgstr "Vahvistamattomien siirtojen kate"
+
+#: public/views/index.html
+msgid "Value Out"
+msgstr "Lähetetty määrä"
+
+#: public/views/index.html
+msgid "Hash"
+msgstr "Tiiviste"
+
+#: public/views/messages_verify.html
+msgid "Verify"
+msgstr "Vahvista"
+
+#: public/views/messages_verify.html
+msgid "Verify signed message"
+msgstr "Vahvista allekirjoitettu viesti"
+
+#: public/views/block.html
+#: public/views/status.html
+msgid "Version"
+msgstr "Versio"
+
+#: public/views/block_list.html
+#: public/views/index.html
+msgid "Waiting for blocks..."
+msgstr "Odotetaan lohkoja..."
+
+#: public/views/index.html
+msgid "Waiting for transactions..."
+msgstr "Odotetaan siirtoja..."
+
+#: public/views/block_list.html
+msgid "by date."
+msgstr "ajan mukaan"
+
+#: public/views/transaction/tx.html
+msgid "first seen at"
+msgstr "havaittu ensin"
+
+#: public/views/transaction/tx.html
+msgid "mined"
+msgstr "louhittu"
+
+#: public/views/block_list.html
+msgid "mined on:"
+msgstr "louhittu:"
+
+#: public/views/index.html
+msgid "Hash"
+msgstr "Tiiviste"
+
+#: public/views/includes/header.html
+msgid " Scan"
+msgstr " Skannaa"
+
+#: public/views/block.html
+msgid "BlockHash"
+msgstr "Lohkon tiiviste"
+
+#: public/views/block.html
+msgid "Merkle Root"
+msgstr "Merkle-puu"
+
+#: public/views/block.html
+msgid "Bits"
+msgstr ""
+
+#: public/views/block.html
+msgid "Nonce"
+msgstr "Nonssi"
+
+#: public/index.html
+msgid "broadcast transaction"
+msgstr "kuuluta transaktio"
+
+#: public/index.html
+msgid "verify message"
+msgstr "varmista viesti"

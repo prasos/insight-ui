@@ -633,6 +633,16 @@ margin-left: 0;
   background-size: 200px;
   width: 100%;
 }
+#powered a.pikaosto {
+  background-image: url('../img/pikaosto_logo-01.svg');
+  background-size: 200px;
+  width: 100%;
+}
+#powered a.bittimaatti {
+  background-image: url('../img/bittimaatti-02.png');
+  background-size: 200px;
+  width: 100%;
+}
 
 @keyframes rotateThis {
 	from { transform: scale( 1 ) rotate( 0deg );   }

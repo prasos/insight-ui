@@ -69,7 +69,10 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
 
     angular.forEach(tmp, function(v) {
       v.value    = v.value || parseInt(v.valueSat) / COIN;
-      ret.push(v);
+      if (v.addr !== $rootScope.currentAddr) ret.push(v);
+      else {
+        ret.unshift(v);
+      }
     });
     return ret;
   };
@@ -77,6 +80,9 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
   var _processTX = function(tx) {
     tx.vinSimple = _aggregateItems(tx.vin);
     tx.voutSimple = _aggregateItems(tx.vout);
+    if ($rootScope.currentAddr) {
+      tx.addrValueOut = tx.voutSimple[0].value;
+    }
   };
 
   var _paginate = function(data) {

@@ -206,6 +206,7 @@
     <span data-ng-show="tx.confirmations" class="txvalues
       txvalues-success">{{tx.confirmations}} <span translate>Confirmations</span></span>
     <span data-ng-show="!tx.confirmations" class="txvalues txvalues-danger" translate>Unconfirmed Transaction!</span>
-    <span class="txvalues txvalues-primary">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC' }}</span>
+    <span class="txvalues txvalues-primary" ng-if="!$root.currentAddr">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC' }}</span>
+    <span class="txvalues txvalues-primary" ng-if="$root.currentAddr">{{$root.currency.getConvertion(tx.addrValueOut) || tx.addrValueOut + ' BTC' }}</span>
   </div>
 </div>

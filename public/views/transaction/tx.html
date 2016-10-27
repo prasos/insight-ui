@@ -116,10 +116,14 @@
   </div>
   <div class="col-md-1 col-xs-12">
     <div class="hidden-xs hidden-sm text-center">
-      <span class="lead glyphicon glyphicon-chevron-right text-muted"></span>
+      <span class="lead glyphicon glyphicon-chevron-right text-muted" ng-if="tx.addrValueOut == 0"></span>
+      <span class="lead glyphicon glyphicon-chevron-right text-danger" ng-if="tx.addrValueOut < 0"></span>
+      <span class="lead glyphicon glyphicon-chevron-right text-success" ng-if="tx.addrValueOut > 0"></span>
     </div>
     <div class="hidden-md hidden-lg text-center">
-      <span class="lead glyphicon glyphicon-chevron-down text-muted"></span>
+      <span class="lead glyphicon glyphicon-chevron-down text-muted" ng-if="tx.addrValueOut == 0"></span>
+      <span class="lead glyphicon glyphicon-chevron-down text-danger" ng-if="tx.addrValueOut < 0"></span>
+      <span class="lead glyphicon glyphicon-chevron-down text-success" ng-if="tx.addrValueOut > 0"></span>
     </div>
   </div>
   <div class="col-md-6">
@@ -207,6 +211,7 @@
       txvalues-success">{{tx.confirmations}} <span translate>Confirmations</span></span>
     <span data-ng-show="!tx.confirmations" class="txvalues txvalues-danger" translate>Unconfirmed Transaction!</span>
     <span class="txvalues txvalues-primary" ng-if="!$root.currentAddr">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC' }}</span>
-    <span class="txvalues txvalues-primary" ng-if="$root.currentAddr">{{$root.currency.getConvertion(tx.addrValueOut) || tx.addrValueOut + ' BTC' }}</span>
+    <span class="txvalues txvalues-primary" ng-if="$root.currentAddr && tx.addrValueOut >= 0">{{$root.currency.getConvertion(tx.addrValueOut) || tx.addrValueOut + ' BTC' }}</span>
+    <span class="txvalues txvalues-danger" ng-if="$root.currentAddr && tx.addrValueOut < 0">{{$root.currency.getConvertion(tx.addrValueOut) || tx.addrValueOut + ' BTC' }}</span>
   </div>
 </div>

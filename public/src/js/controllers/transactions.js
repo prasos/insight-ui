@@ -80,8 +80,12 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
   var _processTX = function(tx) {
     tx.vinSimple = _aggregateItems(tx.vin);
     tx.voutSimple = _aggregateItems(tx.vout);
-    if ($rootScope.currentAddr) {
-      tx.addrValueOut = tx.voutSimple[0].value;
+    tx.addrValueOut = 0.0;
+    if (tx.voutSimple[0].addr === $rootScope.currentAddr) {
+        tx.addrValueOut += tx.voutSimple[0].value;
+    }
+    if (tx.vinSimple[0].addr === $rootScope.currentAddr) {
+        tx.addrValueOut -= tx.vinSimple[0].value;
     }
   };
 

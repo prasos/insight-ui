@@ -18,7 +18,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
         var response;
 
-        if (this.symbol === 'USD') {
+        if (this.symbol === 'USD' || this.symbol === 'EUR') {
           response = _roundFloat((value * this.factor), 2);
         } else if (this.symbol === 'mBTC') {
           this.factor = 1000;
@@ -45,7 +45,11 @@ angular.module('insight.currency').controller('CurrencyController',
 
       if (currency === 'USD') {
         Currency.get({}, function(res) {
-          $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+          $rootScope.currency.factor = $rootScope.currency.bitstamp = (1*res.bitstampUSD.last.ask + 1*res.bitstampUSD.last.bid) / 2.0;
+        });
+      } else if (currency === 'EUR') {
+        Currency.get({}, function(res) {
+          $rootScope.currency.factor = $rootScope.currency.bitstamp = (1*res.bitstampEUR.last.ask + 1*res.bitstampEUR.last.bid) / 2.0;
         });
       } else if (currency === 'mBTC') {
         $rootScope.currency.factor = 1000;
@@ -58,7 +62,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
     // Get initial value
     Currency.get({}, function(res) {
-      $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+      $rootScope.currency.factor = $rootScope.currency.bitstamp = (1*res.bitstampEUR.last.ask + 1*res.bitstampEUR.last.bid) / 2.0;
     });
 
   });
